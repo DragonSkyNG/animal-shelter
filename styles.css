@@ -1,10 +1,37 @@
-:root{
-    --first-color: #F0E3CA;
-    --second-color: #FF8303;
-    --third-color: #A35709;
-    --fourth-color: #1B1A17;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-p{
-    color: var(--first-color);
+:root {
+  --first-color: #f0e3ca;
+  --second-color: #ff8303;
+  --third-color: #a35709;
+  --fourth-color: #1b1a17;
+}
+
+p {
+  color: var(--main-color);
+}
+
+.video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  height: 65%;
+  object-fit: cover;
+}
+
+.main-video {
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-video h1 {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 }
