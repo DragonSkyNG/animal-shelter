@@ -33,6 +33,8 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     margin: auto 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 .nav-1-link:hover {
@@ -52,6 +54,8 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     margin: auto 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
 }
 
 .nav-2-link:hover {
@@ -66,6 +70,9 @@ header {
     color: #F0E3CA;
     flex: 1;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding: 3px;
 }
 
 .logo:hover{
@@ -91,6 +98,8 @@ header {
     background-color: #FF8303;
     padding: 20px;
     flex: 1;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
 }
 
 .donate-btn:hover {
