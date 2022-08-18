@@ -25,12 +25,47 @@ header {
     justify-content: flex-end;
     background-color: var(--fourth-color);
     color: var(--first-color);
+    list-style: none;
 }
 
+.nav-1-link {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto 10px;
+}
+
+.nav-1-link:hover {
+    text-decoration: underline;    
+}
+
+/* The search icon is not working */
+.fa-solid {
+    height: 50px;
+    width: 50px;
+    color: var(--first-color);
+    background-color: var(--fourth-color);
+}
+
+.nav-2-link {
+    color: var(--fourth-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto 10px;
+}
+
+.nav-2-link:hover {
+    text-decoration: underline;    
+}
+
+
 .logo {
+    display: flex;
+    align-items: flex-end;
     background-color: #FF8303;
     color: #F0E3CA;
     flex: 1;
+    text-align: center;
 }
 
 .logo:hover{
@@ -40,26 +75,13 @@ header {
 .nav-2, .info-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
     
 }
 
 .info-2 {
     flex: 6;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: auto 10px;
-}
-
-a:hover {
-    text-decoration: underline;    
 }
 
 .donate-btn {
