@@ -50,6 +50,12 @@ a:hover {
 
 .donate-btn {
     border: none;
-
+    cursor: pointer;
+    color: var(--first-color);
+    background-color: #FF8303;
+    padding: 20px;
 }
 
+.donate-btn:hover {
+    text-decoration: underline; 
+}
