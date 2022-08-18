@@ -17,6 +17,7 @@ header {
 .nav-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .nav-1, .info-1 {
@@ -104,4 +105,30 @@ header {
 
 .donate-btn:hover {
     text-decoration: underline; 
+}
+
+@media screen and (max-width:768px) {
+    header {
+        position: static;
+    }
+
+    .nav-1, .info-1, .nav-2, .info-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .fa-solid {
+        display: hidden;
+    }
+
+    .donate-btn  {
+        width: 100%;
+    }
 }
