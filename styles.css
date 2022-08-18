@@ -1,4 +1,10 @@
-header {
-    position: sticky;
-    top: 0;
+:root{
+    --first-color: #F0E3CA;
+    --second-color: #FF8303;
+    --third-color: #A35709;
+    --fourth-color: #1B1A17;
+}
+
+p{
+    color: var(--first-color);
 }
