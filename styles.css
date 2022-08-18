@@ -34,7 +34,7 @@ header {
 }
 
 .logo:hover{
-    text-decoration: overline;
+    font-size: larger;
 }
 
 .nav-2, .info-2 {
