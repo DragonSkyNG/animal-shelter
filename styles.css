@@ -23,6 +23,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: var(--fourth-color);
+    color: var(--first-color);
 }
 
 .nav-2, .info-2 {
@@ -32,16 +34,13 @@ header {
     
 }
 
-.info-2 {
-    text-transform: capitalize;
-}
-
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    text-transform: uppercase;
     margin: auto 10px;
 }
 
