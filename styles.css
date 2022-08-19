@@ -52,11 +52,24 @@ p {
 .animal {
   min-width: 200px;
   max-width: 30vw;
+  background-color: #fff;
 }
 
 .animal img {
   width: 100%;
   max-width: 415px;
+}
+
+.animal-textWrapper {
+  margin: 1.5rem;
+}
+
+.animal-textWrapper h3 {
+  margin-bottom: 0.5rem;
+}
+
+.animal-textWrapper p {
+  margin-bottom: 0.25rem;
 }
 
 .more {
