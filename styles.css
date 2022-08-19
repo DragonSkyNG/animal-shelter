@@ -78,7 +78,7 @@ p {
 
 .more {
   flex-basis: 100%;
-  margin-top: 1rem;
+  margin-top: 8vh;
   text-align: center;
 }
 
@@ -106,7 +106,7 @@ p {
 
 .getInvolved-title {
   text-align: center;
-  margin: 5vh 0 3vh 0;
+  margin: 10vh 0 3vh 0;
 }
 
 .getInvolved-volunteering,
