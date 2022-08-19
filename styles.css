@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
@@ -8,6 +9,10 @@
   --second-color: #ff8303;
   --third-color: #a35709;
   --fourth-color: #1b1a17;
+}
+
+body {
+  background-color: var(--first-color);
 }
 
 p {
@@ -36,6 +41,69 @@ p {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 }
 
+.adoptableAnimals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.adoptableAnimals h2 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 5vh 0 3vh 0;
+}
+
+.animal {
+  min-width: 200px;
+  max-width: 30vw;
+  background-color: #fff;
+  margin-bottom: 2vh;
+}
+
+.animal a {
+  color: var(--fourth-color);
+  text-decoration: none;
+}
+
+.animal img {
+  width: 100%;
+  max-width: 415px;
+}
+
+.animal-textWrapper {
+  margin: 1.5rem;
+}
+
+.animal-textWrapper h3 {
+  margin-bottom: 0.5rem;
+}
+
+.animal-textWrapper p {
+  margin-bottom: 0.25rem;
+}
+
+.more {
+  flex-basis: 100%;
+  margin-top: 8vh;
+  text-align: center;
+}
+
+.more:hover {
+  animation: expand 0.1s ease-in forwards;
+}
+
+.more a {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+
+.more a:hover {
+  background-color: var(--third-color);
+}
+
 .getInvolved-wrapper {
   display: flex;
   justify-content: center;
@@ -44,25 +112,63 @@ p {
 
 .getInvolved-title {
   text-align: center;
+  margin: 10vh 0 3vh 0;
 }
 
 .getInvolved-volunteering,
 .getInvolved-fostering {
   margin: 1em;
-  flex-basis: 40%;
-  box-sizing: border-box;
+  min-width: 300px;
+  max-width: 40%;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  background-color: #fff;
 }
 
 .orangeBar {
   padding: 0;
   width: 100%;
   height: 0.5em;
-  background-color: #E17000;
+  background-color: var(--second-color);
+}
+
+.getInvolved-textWrapper{
+  margin: 25px;
+}
+
+.getInvolved-textWrapper p {
+  margin-bottom: 10px;
+}
+
+.getInvolved-callToAction a {
+  color: var(--fourth-color);
+}
+
+.getInvolved-callToAction:hover {
+  animation: expandText 0.1s ease-in forwards;
 }
 
 .callToAction-line{
-  width: 123px;
-  height: 3px;
+  width: 120px;
+  height: 2px;
   background-color: black;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes expandText {
+  0% {
+    font-size: 1rem;
+  }
+
+  100% {
+    font-size: 1.15rem;
+  }
 }
