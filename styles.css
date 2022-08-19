@@ -11,6 +11,10 @@
   --fourth-color: #1b1a17;
 }
 
+body {
+  /* overflow: hidden; */
+}
+
 p {
   color: var(--main-color);
 }
@@ -74,7 +78,12 @@ p {
 
 .more {
   flex-basis: 100%;
+  margin-top: 1rem;
   text-align: center;
+}
+
+.more:hover {
+  animation: expand 0.1s ease-in forwards;
 }
 
 .more a {
@@ -87,7 +96,6 @@ p {
 
 .more a:hover {
   background-color: var(--third-color);
-  animation: expand 0.1s ease-in forwards;
 }
 
 .getInvolved-wrapper {
@@ -125,12 +133,12 @@ p {
   margin-bottom: 10px;
 }
 
-.getInvolved-callToAction {
+.getInvolved-callToAction a {
   color: var(--fourth-color);
 }
 
 .getInvolved-callToAction:hover {
-  animation: expand 0.1s ease-in forwards;
+  animation: expandText 0.1s ease-in forwards;
 }
 
 .callToAction-line{
@@ -141,10 +149,20 @@ p {
 
 @keyframes expand {
   0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes expandText {
+  0% {
     font-size: 1rem;
   }
 
   100% {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 }
