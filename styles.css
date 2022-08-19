@@ -54,6 +54,11 @@ p {
   max-width: 30vw;
 }
 
+.animal img {
+  width: 100%;
+  max-width: 415px;
+}
+
 .more {
   flex-basis: 100%;
 }
