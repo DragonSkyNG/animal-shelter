@@ -44,6 +44,7 @@ p {
 
 .getInvolved-title {
   text-align: center;
+  margin: 5vh 0 3vh 0;
 }
 
 .getInvolved-volunteering,
@@ -58,7 +59,7 @@ p {
   padding: 0;
   width: 100%;
   height: 0.5em;
-  background-color: #E17000;
+  background-color: var(--second-color);
 }
 
 .callToAction-line{
