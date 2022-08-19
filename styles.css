@@ -74,6 +74,20 @@ p {
 
 .more {
   flex-basis: 100%;
+  text-align: center;
+}
+
+.more a {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+}
+
+.more a:hover {
+  background-color: var(--third-color);
+  animation: expand 0.1s ease-in forwards;
 }
 
 .getInvolved-wrapper {
