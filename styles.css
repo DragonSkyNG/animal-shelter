@@ -12,7 +12,7 @@
 }
 
 body {
-  /* overflow: hidden; */
+  background-color: var(--first-color);
 }
 
 p {
@@ -114,8 +114,8 @@ p {
   margin: 1em;
   min-width: 300px;
   max-width: 40%;
-  box-sizing: border-box;
   box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  background-color: #fff;
 }
 
 .orangeBar {
