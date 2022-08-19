@@ -1,6 +1,11 @@
 *{
     font-family: 'Mukta', sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
 :root{
     --first-color: #F0E3CA;
     --second-color: #FF8303;
@@ -21,6 +26,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0;
 }
 
 .nav-1, .info-1 {
@@ -45,12 +51,15 @@ header {
     text-decoration: underline;    
 }
 
-/* The search icon is not working */
 .fa-solid {
-    height: 50px;
-    width: 50px;
-    color: var(--first-color);
+  display: flex;
+    color: white;
     background-color: var(--fourth-color);
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid:hover {
+  cursor: pointer;
 }
 
 .nav-2-link {
@@ -94,6 +103,10 @@ header {
 
 .info-2 {
     flex: 6;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 11px;
 }
 
 .donate-btn {
@@ -117,7 +130,6 @@ body {
 
 p {
   color: var(--main-color);
->>>>>>> master
 }
 
 .video {
