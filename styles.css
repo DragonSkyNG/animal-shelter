@@ -50,14 +50,14 @@ p {
 .adoptableAnimals h2 {
   flex-basis: 100%;
   text-align: center;
-  margin: 5vh 0 3vh 0;
+  margin: 50px 0 30px 0;
 }
 
 .animal {
   min-width: 200px;
   max-width: 30vw;
   background-color: #fff;
-  margin-bottom: 2vh;
+  margin-bottom: 20px;
 }
 
 .animal a {
@@ -84,7 +84,7 @@ p {
 
 .more {
   flex-basis: 100%;
-  margin-top: 8vh;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ p {
 
 .getInvolved-title {
   text-align: center;
-  margin: 10vh 0 3vh 0;
+  margin: 100px 0 30px 0;
 }
 
 .getInvolved-volunteering,
