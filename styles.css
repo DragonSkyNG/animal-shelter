@@ -37,6 +37,27 @@ p {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 }
 
+.adoptableAnimals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.adoptableAnimals h2 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 5vh 0 3vh 0;
+}
+
+.animal {
+  min-width: 200px;
+  max-width: 30vw;
+}
+
+.more {
+  flex-basis: 100%;
+}
+
 .getInvolved-wrapper {
   display: flex;
   justify-content: center;
