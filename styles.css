@@ -57,6 +57,7 @@ header {
     margin: auto 10px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    background-color: white;
 }
 
 .nav-2-link:hover {
