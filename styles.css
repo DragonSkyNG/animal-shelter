@@ -66,8 +66,31 @@ p {
   margin: 25px;
 }
 
+.getInvolved-textWrapper p {
+  margin-bottom: 10px;
+}
+
+.getInvolved-callToAction {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+.getInvolved-callToAction:hover {
+  animation: expand 0.1s ease-in forwards;
+}
+
 .callToAction-line{
-  width: 123px;
-  height: 3px;
+  width: 120px;
+  height: 2px;
   background-color: black;
+}
+
+@keyframes expand {
+  0% {
+    font-size: 1rem;
+  }
+
+  100% {
+    font-size: 1.25rem;
+  }
 }
