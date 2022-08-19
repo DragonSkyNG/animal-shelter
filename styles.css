@@ -8,7 +8,6 @@
     --fourth-color: #1B1A17;
 }
 
-<<<<<<< HEAD
 p{
     color: var(--first-color);
 }
@@ -106,7 +105,8 @@ header {
     flex: 1;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-=======
+}
+
 a{
     text-decoration: none;
 }
