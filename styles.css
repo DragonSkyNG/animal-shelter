@@ -60,6 +60,11 @@ p {
   margin-bottom: 2vh;
 }
 
+.animal a {
+  color: var(--fourth-color);
+  text-decoration: none;
+}
+
 .animal img {
   width: 100%;
   max-width: 415px;
